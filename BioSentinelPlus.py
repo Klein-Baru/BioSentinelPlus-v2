@@ -33,7 +33,7 @@ if selected == "Home":
     st.image(logo, use_container_width=True)
             
     # Metrics row
-    st.title("🧬 Vital Metrics")
+    st.subheader("🧬 Vital Metrics")
     col1, col2, col3 = st.columns(3)
     col1.write("Name: Juma Anderson")
     col2.write("Age: 29")
@@ -55,7 +55,7 @@ if selected == "Home":
 
     st.success("🩺 Health Overview: You're doing great! Keep tracking your vitals and earning points.")
 
-    st.title("📊 Interactive & Gamified Health Graphs")
+    st.subheader("📊 Interactive & Gamified Health Graphs")
     colA, colB = st.columns(2)
     with colA:
         fig1 = px.line(
