@@ -35,7 +35,7 @@ if selected == "Home":
     # Metrics row
     st.title("🧬 Vital Metrics")
     col1, col2, col3 = st.columns(3)
-    col1.metric("Name", "Juma Anderson")
+    col1.write_stream("Name: Juma Anderson")
     col2.metric("Age", "29")
     col3.metric("Gender", "Male")
 
