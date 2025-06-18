@@ -36,22 +36,22 @@ if selected == "Home":
     st.title("🧬 Vital Metrics")
     col1, col2, col3 = st.columns(3)
     col1.write("Name: Juma Anderson")
-    col2.metric("Age", "29")
-    col3.metric("Gender", "Male")
+    col2.write("Age: 29")
+    col3.write("Gender: Male")
 
     col4, col5, col6 = st.columns(3)
-    col4.metric("ID", "BSN-2045")
-    col5.metric("Blood Type", "O+")
-    col6.metric("Iris Type", "Type B")
+    col4.write("ID: BSN-2045")
+    col5.write("Blood Type: O+")
+    col6.write("Iris Type: Type B")
 
     col7, col8, col9 = st.columns(3)
-    col7.metric("Weight", "65kg")
-    col8.metric("Height", "170cm")
-    col9.metric("BMI", "22.5")
+    col7.write("Weight: 65kg")
+    col8.write("Height: 170cm")
+    col9.write("BMI: 22.5")
 
     col10, col11 = st.columns(2)
-    col10.metric("Points Earned", "3,200 🏆")
-    col11.metric("Next Checkup", "20 July 2025 @ 10:00AM")
+    col10.write("Points Earned: 3,200 🏆")
+    col11.write("Next Checkup: 20 July 2025 @ 10:00AM")
 
     st.success("🩺 Health Overview: You're doing great! Keep tracking your vitals and earning points.")
 
